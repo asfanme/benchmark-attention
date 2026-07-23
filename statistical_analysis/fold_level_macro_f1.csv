@@ -1,0 +1,51 @@
+experiment,protocol,attention,fold,macro_f1
+E1,Image-level Stratified 5-Fold,Baseline,1,84.16465572486281
+E1,Image-level Stratified 5-Fold,Baseline,2,84.32251973444166
+E1,Image-level Stratified 5-Fold,Baseline,3,81.72510682927384
+E1,Image-level Stratified 5-Fold,Baseline,4,85.3227111786277
+E1,Image-level Stratified 5-Fold,Baseline,5,81.5562392410401
+E2,Image-level Stratified 5-Fold,Channel Attention,1,85.96969751765774
+E2,Image-level Stratified 5-Fold,Channel Attention,2,85.39178905032131
+E2,Image-level Stratified 5-Fold,Channel Attention,3,82.11115275879682
+E2,Image-level Stratified 5-Fold,Channel Attention,4,85.419765487263
+E2,Image-level Stratified 5-Fold,Channel Attention,5,84.48755817298597
+E3,Image-level Stratified 5-Fold,Spatial Attention,1,84.38873155103747
+E3,Image-level Stratified 5-Fold,Spatial Attention,2,83.90577257663308
+E3,Image-level Stratified 5-Fold,Spatial Attention,3,78.94320600791767
+E3,Image-level Stratified 5-Fold,Spatial Attention,4,83.64908229590033
+E3,Image-level Stratified 5-Fold,Spatial Attention,5,84.42713494176236
+E4,Image-level Stratified 5-Fold,CBAM,1,87.57933737097994
+E4,Image-level Stratified 5-Fold,CBAM,2,81.42022247504968
+E4,Image-level Stratified 5-Fold,CBAM,3,82.26994323924386
+E4,Image-level Stratified 5-Fold,CBAM,4,81.6934089507919
+E4,Image-level Stratified 5-Fold,CBAM,5,78.83931974048357
+E5,Image-level Stratified 5-Fold,Coordinate Attention,1,83.45078370226815
+E5,Image-level Stratified 5-Fold,Coordinate Attention,2,84.63725872570747
+E5,Image-level Stratified 5-Fold,Coordinate Attention,3,79.42881180599166
+E5,Image-level Stratified 5-Fold,Coordinate Attention,4,81.52016273373499
+E5,Image-level Stratified 5-Fold,Coordinate Attention,5,80.45664267659116
+E6,Lesion-level Group 5-Fold,Baseline,1,70.73996369183729
+E6,Lesion-level Group 5-Fold,Baseline,2,74.75527923644049
+E6,Lesion-level Group 5-Fold,Baseline,3,72.167795263094
+E6,Lesion-level Group 5-Fold,Baseline,4,69.00939159246686
+E6,Lesion-level Group 5-Fold,Baseline,5,76.233375279039
+E7,Lesion-level Group 5-Fold,Channel Attention,1,65.47341653067427
+E7,Lesion-level Group 5-Fold,Channel Attention,2,73.26098714449991
+E7,Lesion-level Group 5-Fold,Channel Attention,3,73.02202621028663
+E7,Lesion-level Group 5-Fold,Channel Attention,4,70.58632648892232
+E7,Lesion-level Group 5-Fold,Channel Attention,5,70.22348225860362
+E8,Lesion-level Group 5-Fold,Spatial Attention,1,69.6588154266774
+E8,Lesion-level Group 5-Fold,Spatial Attention,2,79.00987375546258
+E8,Lesion-level Group 5-Fold,Spatial Attention,3,74.04340134454975
+E8,Lesion-level Group 5-Fold,Spatial Attention,4,74.31333506775425
+E8,Lesion-level Group 5-Fold,Spatial Attention,5,72.76798277883849
+E9,Lesion-level Group 5-Fold,CBAM,1,66.57442266715464
+E9,Lesion-level Group 5-Fold,CBAM,2,76.49414209182976
+E9,Lesion-level Group 5-Fold,CBAM,3,70.70839823848057
+E9,Lesion-level Group 5-Fold,CBAM,4,72.31510159843367
+E9,Lesion-level Group 5-Fold,CBAM,5,75.0681572727606
+E10,Lesion-level Group 5-Fold,Coordinate Attention,1,68.73249234458821
+E10,Lesion-level Group 5-Fold,Coordinate Attention,2,74.01660124592276
+E10,Lesion-level Group 5-Fold,Coordinate Attention,3,72.29896488511407
+E10,Lesion-level Group 5-Fold,Coordinate Attention,4,75.4771661609318
+E10,Lesion-level Group 5-Fold,Coordinate Attention,5,69.55534695150561

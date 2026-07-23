@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Paired fold-level macro-F1 comparisons against the protocol-matched baseline. Mean differences and confidence intervals are expressed in percentage points.}
+\label{tab:fold_level_statistics}
+\small
+\begin{tabular}{llrrrrr}
+\toprule
+Protocol & Comparison & Mean difference (pp) & 95\% CI & Cohen's $d_z$ & Raw $p$ & Holm-adjusted $p$ \\
+\midrule
+Stratified & E2 vs E1 & 1.26 & [-0.16, 2.68] & 1.10 & 0.070 & 0.560 \\
+Stratified & E3 vs E1 & -0.36 & [-3.02, 2.31] & -0.17 & 0.730 & 1.000 \\
+Stratified & E4 vs E1 & -1.06 & [-4.75, 2.63] & -0.36 & 0.471 & 1.000 \\
+Stratified & E5 vs E1 & -1.52 & [-3.48, 0.44] & -0.96 & 0.098 & 0.687 \\
+Group & E7 vs E6 & -2.07 & [-6.37, 2.23] & -0.60 & 0.253 & 1.000 \\
+Group & E8 vs E6 & 1.38 & [-3.16, 5.92] & 0.38 & 0.447 & 1.000 \\
+Group & E9 vs E6 & -0.35 & [-3.98, 3.28] & -0.12 & 0.803 & 1.000 \\
+Group & E10 vs E6 & -0.57 & [-6.44, 5.31] & -0.12 & 0.803 & 1.000 \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}
+\footnotesize Note: Two-sided paired-samples t-tests were used as the primary analysis. Holm adjustment was applied across all eight paired t-tests. Because each comparison contains five folds, the analysis is exploratory. Exact Wilcoxon sensitivity results are provided in the supplementary statistical output.
+\end{flushleft}
+\end{table}
