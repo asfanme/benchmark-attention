@@ -1,0 +1,26 @@
+# Core numerical and data-processing stack
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+statsmodels==0.14.6
+
+# Deep-learning stack
+# torch and torchvision versions are paired.
+# For a specific NVIDIA CUDA build, install the matching wheel from
+# the official PyTorch selector if the default wheel is unsuitable.
+torch==2.10.0
+torchvision==0.25.0
+
+# Image processing and visualisation
+Pillow==12.2.0
+matplotlib==3.10.8
+
+# Experiment utilities
+tqdm==4.67.3
+openpyxl==3.1.5
+tabulate==0.9.0
+
+# Notebook environment
+jupyterlab==4.5.3
+ipykernel==7.2.0
